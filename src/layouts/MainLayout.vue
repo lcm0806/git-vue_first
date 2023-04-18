@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          <q-btn to="/" label="Vue study" class="text-subtitle1" unelevated></q-btn>
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -85,6 +85,24 @@ const linksList = [
     caption: '@QuasarFramework',
     icon: 'public',
     link: 'https://facebook.quasar.dev'
+  },
+  {
+    title: 'Vue 기초 문법',
+    caption: 'Vue 핵심가이드',
+    icon: 'school',
+    link: '/vue'
+  },
+  {
+    title: 'Shopping List',
+    caption: 'vue 실습 1',
+    icon: 'code',
+    link: '/shop'
+  },
+  {
+    title: 'todo',
+    caption: 'vue + store 실습',
+    icon: 'home',
+    link: '/todo'
   },
   {
     title: 'Quasar Awesome',
