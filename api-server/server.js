@@ -26,6 +26,8 @@ app.use(express.urlencoded({extended : true }));
 
 //const todoRouter = require('./api/todo')
 //app.use('/api',todoRouter);
+//const tacticsRouter = require('./api/tactics')
+//app.use('/api',tacticsRouter);
 
 //autoRouter
 const autoRoute = require('./autoRoute');

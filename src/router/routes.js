@@ -1,3 +1,4 @@
+import router from '.'
 
 const routes = [
   {
@@ -8,7 +9,7 @@ const routes = [
       { path: '', component: () => import('pages/IndexPage.vue') },
       { path: '/vue', component: () => import('pages/VueEx.vue') },
       { path: '/shop', component: () => import('pages/ShoppingList.vue') },
-      { path: '/todo', component: () => import('pages/Todo.vue') },s
+      { path: '/todo', component: () => import('pages/Todo.vue') },
     ]
   },
 
@@ -20,4 +21,4 @@ const routes = [
   }
 ]
 
-export default route
+export default routes
