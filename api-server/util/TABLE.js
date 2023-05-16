@@ -1,6 +1,7 @@
 const TABLE = {
     TODO: "todo",
-    TACTICS: "tactics"
+    TACTICS: "tactics",
+    USER: "user",
   };
 
   module.exports = TABLE;

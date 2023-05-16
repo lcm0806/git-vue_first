@@ -14,8 +14,9 @@
         <q-toolbar-title>
           <q-btn to="/" label="Vue study" class="text-subtitle1" unelevated></q-btn>
         </q-toolbar-title>
+<q-btn to="/signin" flat text-color="white" label="회원가입"></q-btn>
+<!-- 버전부분 주석처리하고 이자리에 버튼넣기 <div>Quasar v{{ $q.version }}</div> -->
 
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
@@ -109,7 +110,13 @@ const linksList = [
     caption: 'Community Quasar projects',
     icon: 'favorite',
     link: 'https://awesome.quasar.dev'
-  }
+  },
+  {
+    title: "db todo list",
+    caption: "vue + database",
+    icon: "chat",
+    link: "/dbtodo",
+  },
 ]
 
 export default defineComponent({
